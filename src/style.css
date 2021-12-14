@@ -91,3 +91,19 @@ input {
     text-align: end;
     transform: translateX(4.38rem);
 }
+
+@media only screen and (min-width:768px) {
+  .header {
+      text-align: start;
+      margin-left: 2rem;
+  }
+  .general-container {
+      display: flex;
+  }
+  .scores-container {
+      margin: 0 4rem 0 4rem;
+  }
+  .scores-header-div {
+      gap: 5rem;
+  }
+}
