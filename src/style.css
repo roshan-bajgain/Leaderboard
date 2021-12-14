@@ -1,9 +1,9 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 .header {
@@ -20,10 +20,10 @@
 }
 
 .scores-header-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .refresh-button {
@@ -36,7 +36,7 @@
 }
 
 .scoreboard {
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .players-div {
@@ -46,18 +46,18 @@
   font-weight: bold;
 }
 
-.players-div:nth-child(even){
-    background-color: #ccc;
+.players-div:nth-child(even) {
+  background-color: #ccc;
 }
 
 .players-score {
-    text-align: start;
+  text-align: start;
 }
 
 #leaderboard-forms h2 {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 
 .form-container {
@@ -66,14 +66,15 @@
 }
 
 input {
-    margin-bottom: 0.5rem;
-    border: 3px solid #000;
+  margin-bottom: 0.5rem;
+  border: 3px solid #000;
 }
 
-#name, #score {
-    font-size: 0.9rem;
-    padding-left: 0.4rem;
-    color: #000;
+#name,
+#score {
+  font-size: 0.9rem;
+  padding-left: 0.4rem;
+  color: #000;
 }
 
 #name::placeholder,
@@ -83,27 +84,30 @@ input {
 }
 
 .submit-btn {
-    padding: 0 0.25rem;
-    border: 2px solid #000;
-    box-shadow: 2px 2px 5px 3px #000;
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-align: end;
-    transform: translateX(4.38rem);
+  padding: 0 0.25rem;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px 3px #000;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: end;
+  transform: translateX(4.38rem);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .header {
-      text-align: start;
-      margin-left: 2rem;
+    text-align: start;
+    margin-left: 2rem;
   }
+
   .general-container {
-      display: flex;
+    display: flex;
   }
+
   .scores-container {
-      margin: 0 4rem 0 4rem;
+    margin: 0 4rem 0 4rem;
   }
+
   .scores-header-div {
-      gap: 5rem;
+    gap: 5rem;
   }
 }
