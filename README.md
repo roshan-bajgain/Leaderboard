@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[View Live Demo](https://roshan-bajgain.github.io/Leaderboard/)
+[View Live Demo](https://musing-wright-05e524.netlify.app)
 
 ## Getting Started
 
