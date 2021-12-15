@@ -1,6 +1,7 @@
 # Leaderboard
 
-   This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API. As, this project is built using webpack and to open in browser you need to type `npm start` in terminal.
+This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API
+
 
 ## Built With
 
@@ -13,6 +14,18 @@
 [View Live Demo](https://musing-wright-05e524.netlify.app)
 
 ## Getting Started
+
+This is my Leaderboard project
+
+To get a local copy up and running follow these simple example steps.
+
+1. Enter git@github.com:roshan-bajgain/Leaderboard.git into terminal
+
+2. Run `npm i`
+
+3. As, this project is built using webpack and to open in browser you need to type npm start in terminal
+
+4. Open in browser to view site    
 
 **This is my Leaderboard project**
 
