@@ -1,6 +1,6 @@
 # Leaderboard
 
-   This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API. As I told you this project is build using webpack and to open in browser you need to type 'npm start' in terminal.
+   This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API. As, this project is built using webpack and to open in browser you need to type `npm start` in terminal.
 
 ## Built With
 
