@@ -1,4 +1,5 @@
 import './style.css';
+import table from './table.js';
 import { getScores, addScore } from './api.js';
 
 const btn = document.querySelector('.submit-btn');
@@ -18,4 +19,4 @@ btn.addEventListener('click', async () => {
   document.querySelector('#score').value = '';
 });
 
-document.querySelector('.btn-success').addEventListener('click', render);
+document.querySelector('.refresh-button').addEventListener('click', render);
