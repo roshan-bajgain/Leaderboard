@@ -17,21 +17,23 @@ This is the project build with webpack and the objective of this project is to u
 
 To get a local copy up and running follow these steps.
 
-1. Enter git@github.com:roshan-bajgain/Leaderboard.git into terminal
+1. Clone the repo
+   ```
+   git clone git@github.com:roshan-bajgain/Leaderboard.git
+   ```
 
-2. Run `npm i`
+2. Go to project directory `cd Leaderboard`
 
-3. As, this project is built using webpack and to open in browser you need to type npm start in terminal 
+3. Install project requirements `npm i`
 
-## This is my Leaderboard project
+3. Start the project using `npm start`
 
-To get a local copy up and running follow these simple example steps.
-1) Enter `git@github.com:roshan-bajgain/Leaderboard.git` into terminal
-2) Open in browser to view site
 
 ### Prerequisites
 
--code editor
+- code editor (eg: vscode)
+- Git
+- node.js
 
 ## Authors 1
 
@@ -49,9 +51,3 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
