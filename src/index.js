@@ -10,13 +10,14 @@ async function render() {
 }
 render();
 
-btn.addEventListener('click', async () => {
+btn.addEventListener('click', async (e) => {
+    e.preventDefault();
     const user = document.querySelector('#name').value;
     const score = Number(document.querySelector('#score').value);
     const obj = { user, score };
-    addScore(obj);
-  document.querySelector('#name').value = '';
-  document.querySelector('#score').value = '';
+    const response = await addScore(obj);
+    document.querySelector('#name').value = '';
+    document.querySelector('#score').value = '';
 });
 
-document.querySelector('.refresh-button').addEventListener('click', render);
+document.querySelector('.refresh-button').addEventListener('click', () => render());
