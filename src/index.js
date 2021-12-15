@@ -3,11 +3,10 @@ import table from './table.js';
 import { getScores, addScore } from './api.js';
 
 const btn = document.querySelector('.submit-btn');
-
-async function render(){
+const render = async () => {
   const array = await getScores();
   table(array);
-}
+};
 render();
 
 btn.addEventListener('click', async (e) => {
