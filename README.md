@@ -1,9 +1,13 @@
 # Leaderboard
 
+This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API
+
+
 ## Built With
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
@@ -11,18 +15,25 @@
 
 ## Getting Started
 
-**This is my Leaderboard project**
+To get a local copy up and running follow these steps.
 
+1. Clone the repo
+   ```
+   git clone git@github.com:roshan-bajgain/Leaderboard.git
+   ```
 
-To get a local copy up and running follow these simple example steps.
-1) Enter `git@github.com:roshan-bajgain/Leaderboard.git` into terminal
+2. Go to project directory `cd Leaderboard`
 
-2) Open in browser to view site
+3. Install project requirements `npm i`
+
+3. Start the project using `npm start`
 
 
 ### Prerequisites
--code editor
 
+- code editor (eg: vscode)
+- Git
+- node.js
 
 ## Authors 1
 
@@ -40,9 +51,3 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
