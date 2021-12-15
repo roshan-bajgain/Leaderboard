@@ -4,7 +4,7 @@ import { getScores, addScore } from './api.js';
 
 const btn = document.querySelector('.submit-btn');
 
-async function render() {
+async function render(){
   const array = await getScores();
   table(array);
 }
