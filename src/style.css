@@ -6,52 +6,103 @@
   text-decoration: none;
 }
 
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Pacifico', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 60px auto;
+}
+
 .header {
   font-size: 2.5rem;
-  margin: 0 1rem 0 1rem;
+  margin: 1rem 1rem 0 1rem;
   display: flex;
   text-align: center;
+  font-family: 'Pacifico', sans-serif;
+  color: #fff;
+}
+
+.general-container {
+  margin-left: 3rem;
 }
 
 .score-container {
-  margin: 0 1rem 0 1rem;
+  margin: 2rem 1rem 0 1rem;
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
-.scores-header-div {
+.score-header-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
+.scr {
+  font-size: 2rem;
+}
+
+h2 {
+  color: yellow;
+  font-family: 'Pacifico', sans-serif;
+}
+
 .refresh-button {
-  padding: 0 0.25rem;
+  padding: 0 0.45rem;
   border: 2px solid #000;
   box-shadow: 2px 2px 5px 3px #000;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: bold;
   height: 1.75rem;
+  cursor: pointer;
+  font-family: 'Italianno', sans-serif;
+  border-radius: 25px;
 }
 
 .scoreboard {
   border: 1px solid #000;
 }
 
-.players-div {
-  display: flex;
+.score-display {
   justify-content: space-between;
   padding: 0.825rem 0.625rem;
   font-weight: bold;
+  border: 3px solid black;
+  background: white;
 }
 
-.players-div:nth-child(even) {
-  background-color: #ccc;
+.score-display ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.players-score {
-  text-align: start;
+li {
+  display: flex;
+  gap: 20px;
+  padding: 5px 10px;
+}
+
+li p {
+  font-family: 'Italianno', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+
+li:nth-child(even) {
+  background: #656665e1;
+  color: #fff;
 }
 
 #leaderboard-forms h2 {
@@ -72,25 +123,30 @@ input {
 
 #name,
 #score {
-  font-size: 0.9rem;
-  padding-left: 0.4rem;
+  font-size: 1rem;
   color: #000;
+  border-radius: 50px;
+  padding: 8px 0.6rem;
 }
 
 #name::placeholder,
 #score::placeholder {
   color: #000;
   font-weight: bolder;
+  font-family: 'Pacifico', sans-serif;
 }
 
 .submit-btn {
-  padding: 0 0.25rem;
+  padding: 0.1rem 1rem;
   border: 2px solid #000;
   box-shadow: 2px 2px 5px 3px #000;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: end;
   transform: translateX(4.38rem);
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'Italianno', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
