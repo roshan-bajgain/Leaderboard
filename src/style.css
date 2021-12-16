@@ -6,8 +6,6 @@
   text-decoration: none;
 }
 body {
-  /* width: 100%;
-  height: 100vh; */
   background-image:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +97,7 @@ li {
 li p {
   font-family: 'Italianno', sans-serif;
   font-size: 1.7rem;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
 }
 
 li:nth-child(even) {

@@ -2,6 +2,7 @@
 
 This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API
 
+![screenshot](./screenshoot.png)
 
 ## Built With
 
