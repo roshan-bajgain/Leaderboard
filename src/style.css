@@ -5,6 +5,9 @@
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
+body {
+  background: blue;
+}
 
 .header {
   font-size: 2.5rem;
@@ -39,6 +42,7 @@
   font-size: 0.9rem;
   font-weight: bold;
   height: 1.75rem;
+  cursor: pointer;
 }
 
 .scoreboard {
@@ -92,6 +96,7 @@ input {
   font-size: 0.9rem;
   padding-left: 0.4rem;
   color: #000;
+  border-radius: 50px;
 }
 
 #name::placeholder,
@@ -108,6 +113,7 @@ input {
   font-weight: bold;
   text-align: end;
   transform: translateX(4.38rem);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
