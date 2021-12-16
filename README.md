@@ -12,7 +12,7 @@ This is the project build with webpack and the objective of this project is to u
 
 ## Live Demo
 
-[View Live Demo](https://musing-wright-05e524.netlify.app)
+[View Live Demo](https://suspicious-golick-545a0f.netlify.app)
 
 ## Getting Started
 
