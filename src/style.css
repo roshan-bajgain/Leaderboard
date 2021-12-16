@@ -6,7 +6,10 @@
   text-decoration: none;
 }
 body {
-  background: blue;
+  background-image: url(./image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Pacifico', sans-serif;
 }
 
 .header {
@@ -14,6 +17,7 @@ body {
   margin: 1rem 1rem 0 1rem;
   display: flex;
   text-align: center;
+  font-family: 'Pacifico', sans-serif;
 }
 
 .general-container{
@@ -35,6 +39,15 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.scr {
+ font-size: 2rem;
+}
+
+h2 {
+  color: yellow;
+  font-family: 'Pacifico', sans-serif;
+}
+
 .refresh-button {
   padding: 0 0.25rem;
   border: 2px solid #000;
@@ -43,6 +56,7 @@ body {
   font-weight: bold;
   height: 1.75rem;
   cursor: pointer;
+  font-family: 'Italianno', sans-serif;
 }
 
 .scoreboard {
@@ -54,6 +68,7 @@ body {
   padding: 0.825rem 0.625rem;
   font-weight: bold;
   border: 3px solid black;
+  background: white;
 }
 
 .score-display ul {
@@ -93,10 +108,11 @@ input {
 
 #name,
 #score {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-left: 0.4rem;
   color: #000;
   border-radius: 50px;
+  padding: 8px;
 }
 
 #name::placeholder,
@@ -106,7 +122,7 @@ input {
 }
 
 .submit-btn {
-  padding: 0 0.25rem;
+  padding: 0.23rem 1rem;
   border: 2px solid #000;
   box-shadow: 2px 2px 5px 3px #000;
   font-size: 0.9rem;
@@ -114,6 +130,7 @@ input {
   text-align: end;
   transform: translateX(4.38rem);
   cursor: pointer;
+  border-radius: 50px;
 }
 
 @media only screen and (min-width: 768px) {
