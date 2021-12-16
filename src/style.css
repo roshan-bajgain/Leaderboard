@@ -6,10 +6,19 @@
   text-decoration: none;
 }
 body {
-  background-image: url(./image.jpg);
+  /* width: 100%;
+  height: 100vh; */
+  background-image:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   font-family: 'Pacifico', sans-serif;
+}
+
+main{
+  width: 80%;
+  margin: 60px auto;
 }
 
 .header {
@@ -18,6 +27,7 @@ body {
   display: flex;
   text-align: center;
   font-family: 'Pacifico', sans-serif;
+  color: #fff;
 }
 
 .general-container{
@@ -84,6 +94,12 @@ li {
   display: flex;
   gap: 20px;
   padding: 5px 10px;
+}
+
+li p {
+  font-family: 'Italianno', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 6px;
 }
 
 li:nth-child(even) {
