@@ -8,18 +8,24 @@
 
 .header {
   font-size: 2.5rem;
-  margin: 0 1rem 0 1rem;
+  margin: 1rem 1rem 0 1rem;
   display: flex;
   text-align: center;
 }
 
-.score-container {
-  margin: 0 1rem 0 1rem;
-  display: flex;
-  flex-direction: column;
+.general-container{
+  margin-left: 3rem;
+
 }
 
-.scores-header-div {
+.score-container {
+  margin: 2rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.score-header-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,19 +45,30 @@
   border: 1px solid #000;
 }
 
-.players-div {
-  display: flex;
+.score-display {
   justify-content: space-between;
   padding: 0.825rem 0.625rem;
   font-weight: bold;
+  border: 3px solid black;
 }
 
-.players-div:nth-child(even) {
-  background-color: #ccc;
+.score-display ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.players-score {
-  text-align: start;
+li {
+  display: flex;
+  gap: 20px;
+  padding: 5px 10px;
+}
+
+li:nth-child(even) {
+  background: #656665e1;
+  color: #fff;
 }
 
 #leaderboard-forms h2 {
