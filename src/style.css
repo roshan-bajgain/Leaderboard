@@ -5,8 +5,9 @@
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
+
 body {
-  background-image:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +15,7 @@ body {
   font-family: 'Pacifico', sans-serif;
 }
 
-main{
+main {
   width: 80%;
   margin: 60px auto;
 }
@@ -28,9 +29,8 @@ main{
   color: #fff;
 }
 
-.general-container{
+.general-container {
   margin-left: 3rem;
-
 }
 
 .score-container {
@@ -48,7 +48,7 @@ main{
 }
 
 .scr {
- font-size: 2rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -124,10 +124,9 @@ input {
 #name,
 #score {
   font-size: 1rem;
-  padding-left: 0.4rem;
   color: #000;
   border-radius: 50px;
-  padding: 8px;
+  padding: 8px 0.6rem;
 }
 
 #name::placeholder,
