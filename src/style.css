@@ -65,7 +65,7 @@ h2 {
   height: 1.75rem;
   cursor: pointer;
   font-family: 'Italianno', sans-serif;
-  border-radius: 25px;
+  border-radius: 24px;
 }
 
 .scoreboard {
@@ -145,7 +145,7 @@ input {
   text-align: end;
   transform: translateX(4.38rem);
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 51px;
   font-family: 'Italianno', sans-serif;
 }
 
