@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.js"></script><script defer src="main.js"></script></head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
+  <main>
+      <h1 class="header">Leaderboard</h1>
+      <section class="general-container">
+          <div class="score-container">
+              <div class="score-header-div">
+                  <h2 class="scr">Recent Scores</h2>
+                  <button type="button" class="refresh-button">Refresh</button>
+              </div>
+              <div class="score-display">
+                <ul></ul>
+              </div>
+              </div>
+          <div>
+              <form id="leaderboard-forms">
+                  <h2>Add your score</h2>
+                  <div class="form-container">
+                      <div>
+                          <label for="name"></label>
+                          <input type="text" id="name" name="title" placeholder="Your Name" maxlength="25">
+                      </div> 
+                      <div>
+                          <label for="name"></label>
+                          <input type="text" id="score" name="author" placeholder="Your Score" maxlength="5">
+                      </div>
+                      <button type="submit" class="submit-btn">submit</button>
+                  </div>
+              </form>
+          </div>
+      </section>
+  </main>
 </body>
 </html>
